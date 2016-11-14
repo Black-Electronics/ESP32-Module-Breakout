@@ -1,0 +1,349 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:ESP32S-breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X19 P2
+U 1 1 582306D2
+P 7250 3200
+F 0 "P2" H 7250 4200 50  0000 C CNN
+F 1 "CONN_01X19" V 7350 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x19" H 7250 3200 50  0001 C CNN
+F 3 "" H 7250 3200 50  0000 C CNN
+	1    7250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X19 P1
+U 1 1 58230766
+P 3500 3150
+F 0 "P1" H 3500 4150 50  0000 C CNN
+F 1 "CONN_01X19" V 3600 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x19" H 3500 3150 50  0001 C CNN
+F 3 "" H 3500 3150 50  0000 C CNN
+	1    3500 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2250 4300 2250
+Wire Wire Line
+	4300 2350 3700 2350
+Wire Wire Line
+	4300 2450 3700 2450
+Wire Wire Line
+	4300 2550 3700 2550
+Wire Wire Line
+	3700 2650 4300 2650
+Wire Wire Line
+	4300 2750 3700 2750
+Wire Wire Line
+	3700 2850 4300 2850
+Wire Wire Line
+	4300 2950 3700 2950
+Wire Wire Line
+	3700 3050 4300 3050
+Wire Wire Line
+	4300 3150 3700 3150
+Wire Wire Line
+	3700 3250 4300 3250
+Wire Wire Line
+	4300 3350 3700 3350
+Wire Wire Line
+	3700 3450 4300 3450
+Wire Wire Line
+	3700 3550 4300 3550
+Wire Wire Line
+	3700 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 4000
+Wire Wire Line
+	4450 4000 4800 4000
+Wire Wire Line
+	4900 4000 4900 4050
+Wire Wire Line
+	4900 4050 4400 4050
+Wire Wire Line
+	4400 4050 4400 3750
+Wire Wire Line
+	4400 3750 3700 3750
+Wire Wire Line
+	3700 3850 4350 3850
+Wire Wire Line
+	4350 3850 4350 4100
+Wire Wire Line
+	4350 4100 5000 4100
+Wire Wire Line
+	5000 4100 5000 4000
+Wire Wire Line
+	3700 3950 4300 3950
+Wire Wire Line
+	4300 3950 4300 4150
+Wire Wire Line
+	4300 4150 5100 4150
+Wire Wire Line
+	5100 4150 5100 4000
+Wire Wire Line
+	3700 4050 4250 4050
+Wire Wire Line
+	4250 4050 4250 4200
+Wire Wire Line
+	4250 4200 5200 4200
+Wire Wire Line
+	5200 4200 5200 4000
+Wire Wire Line
+	6150 2300 7050 2300
+Wire Wire Line
+	6150 2400 7050 2400
+Wire Wire Line
+	6150 2500 7050 2500
+Wire Wire Line
+	6150 2600 7050 2600
+Wire Wire Line
+	7050 2700 6150 2700
+Wire Wire Line
+	6150 2800 7050 2800
+Wire Wire Line
+	5600 4050 5600 4000
+Wire Wire Line
+	5500 4000 5500 4100
+Wire Wire Line
+	5400 4150 5400 4000
+Wire Wire Line
+	5300 4000 5300 4200
+$Comp
+L ESP-32S U1
+U 1 1 58231627
+P 5250 2950
+F 0 "U1" H 4550 4200 60  0000 C CNN
+F 1 "ESP-32S" H 5750 4200 60  0000 C CNN
+F 2 "ESP3212:ESP-32S" H 5600 4300 60  0001 C CNN
+F 3 "" H 4800 3400 60  0001 C CNN
+	1    5250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2900 7050 2900
+Wire Wire Line
+	6150 3000 7050 3000
+Wire Wire Line
+	6150 3100 7050 3100
+Wire Wire Line
+	6150 3200 7050 3200
+Wire Wire Line
+	6150 3300 7050 3300
+Wire Wire Line
+	7050 3400 6150 3400
+Wire Wire Line
+	7050 3500 6150 3500
+NoConn ~ 6150 2200
+Wire Wire Line
+	6150 3600 7050 3600
+Wire Wire Line
+	5700 4000 6150 4000
+Wire Wire Line
+	6150 4000 6150 3700
+Wire Wire Line
+	6150 3700 7050 3700
+Wire Wire Line
+	7050 3800 6200 3800
+Wire Wire Line
+	6200 3800 6200 4050
+Wire Wire Line
+	6200 4050 5600 4050
+Wire Wire Line
+	5500 4100 6250 4100
+Wire Wire Line
+	6250 4100 6250 3900
+Wire Wire Line
+	6250 3900 7050 3900
+Wire Wire Line
+	5400 4150 6300 4150
+Wire Wire Line
+	6300 4150 6300 4000
+Wire Wire Line
+	6300 4000 7050 4000
+Wire Wire Line
+	5300 4200 6350 4200
+Wire Wire Line
+	6350 4200 6350 4100
+Wire Wire Line
+	6350 4100 7050 4100
+$Comp
+L SW_PUSH SW1
+U 1 1 5826F6FA
+P 4550 4750
+F 0 "SW1" H 4700 4860 50  0000 C CNN
+F 1 "EN" H 4550 4670 50  0000 C CNN
+F 2 "w_switch:smd_push" H 4550 4750 50  0001 C CNN
+F 3 "" H 4550 4750 50  0000 C CNN
+	1    4550 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5826F78B
+P 4150 5000
+F 0 "#PWR01" H 4150 4750 50  0001 C CNN
+F 1 "GND" H 4150 4850 50  0000 C CNN
+F 2 "" H 4150 5000 50  0000 C CNN
+F 3 "" H 4150 5000 50  0000 C CNN
+	1    4150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5000 4150 4750
+Wire Wire Line
+	4150 4750 4250 4750
+Wire Wire Line
+	4850 4750 5250 4750
+$Comp
+L R R1
+U 1 1 5826F8F4
+P 4950 4550
+F 0 "R1" V 5030 4550 50  0000 C CNN
+F 1 "10K" V 4950 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4880 4550 50  0001 C CNN
+F 3 "" H 4950 4550 50  0000 C CNN
+	1    4950 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4700 4950 4750
+Connection ~ 4950 4750
+Wire Wire Line
+	4950 4400 4950 4350
+Wire Wire Line
+	4950 4350 4800 4350
+Text Label 4800 4350 0    60   ~ 0
+3V3
+Text Label 5250 4750 0    60   ~ 0
+EN
+$Comp
+L SW_PUSH SW2
+U 1 1 5826FAC5
+P 5900 4750
+F 0 "SW2" H 6050 4860 50  0000 C CNN
+F 1 "0" H 5900 4670 50  0000 C CNN
+F 2 "w_switch:smd_push" H 5900 4750 50  0001 C CNN
+F 3 "" H 5900 4750 50  0000 C CNN
+	1    5900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5826FACB
+P 5500 5000
+F 0 "#PWR02" H 5500 4750 50  0001 C CNN
+F 1 "GND" H 5500 4850 50  0000 C CNN
+F 2 "" H 5500 5000 50  0000 C CNN
+F 3 "" H 5500 5000 50  0000 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5000 5500 4750
+Wire Wire Line
+	5500 4750 5600 4750
+Wire Wire Line
+	6200 4750 6600 4750
+$Comp
+L R R2
+U 1 1 5826FAD4
+P 6300 4550
+F 0 "R2" V 6380 4550 50  0000 C CNN
+F 1 "10K" V 6300 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 4550 50  0001 C CNN
+F 3 "" H 6300 4550 50  0000 C CNN
+	1    6300 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4700 6300 4750
+Connection ~ 6300 4750
+Wire Wire Line
+	6300 4400 6300 4350
+Wire Wire Line
+	6300 4350 6150 4350
+Text Label 6150 4350 0    60   ~ 0
+3V3
+Text Label 6600 4750 0    60   ~ 0
+0
+Text Label 3900 2450 0    60   ~ 0
+EN
+Text Label 6200 3600 0    60   ~ 0
+0
+Text Label 6500 2300 0    60   ~ 0
+GND
+Text Label 4150 4750 0    60   ~ 0
+GND
+Text Label 5500 4750 0    60   ~ 0
+GND
+$Comp
+L CONN_01X01 P3
+U 1 1 5829772B
+P 7750 4750
+F 0 "P3" H 7750 4850 50  0000 C CNN
+F 1 "BE LOGO" V 7850 4750 50  0000 C CNN
+F 2 "logo:3k5" H 7750 4750 50  0001 C CNN
+F 3 "" H 7750 4750 50  0000 C CNN
+	1    7750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 582977B0
+P 7750 5150
+F 0 "P4" H 7750 5250 50  0000 C CNN
+F 1 "OSHW" V 7850 5150 50  0000 C CNN
+F 2 "logo:oshw-logo-kicad-copper-10mm" H 7750 5150 50  0001 C CNN
+F 3 "" H 7750 5150 50  0000 C CNN
+	1    7750 5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7550 5150
+NoConn ~ 7550 4750
+Text Label 3900 2350 0    60   ~ 0
+3V3
+$EndSCHEMATC
